@@ -37,7 +37,7 @@
                  .siblings()
                  .removeClass('active');
                 $imgs
-                 .hid()
+                 .hide()
                  .filter(tagged[tagName])
                  .show();
             }
